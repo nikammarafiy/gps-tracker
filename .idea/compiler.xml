@@ -29,7 +29,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base" target="1.5" />
-      <module name="litte-nanny-download-api" target="1.5" />
+      <module name="litte-nanny-download-api" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
