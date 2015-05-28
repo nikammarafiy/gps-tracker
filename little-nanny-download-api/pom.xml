@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.routing4you</groupId>
+        <artifactId>base</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.routing4you</groupId>
+    <artifactId>litte-nanny-download-api</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- lesbare Namen u. Beschreibung fuer nicht computer (Menschen). -->
+    <packaging>jar</packaging>
+    <name>Little Nanny Appsore Switch</name>
+    <description>Enabled to download dthe Littel nanny app usimg differnt devices. Automatic store switchn</description>
+
+    <organization>
+        <name>Routing4You</name>
+        <url>http://www.routing4you.com</url>
+    </organization>
+    <dependencies>
+         <!-- Testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- Test -->
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>central-deployment</id>
+            <build>
+                <plugins>
+                    <!-- START: Plugins for maven central distribution -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-javadoc-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>attach-javadocs</id>
+                                <goals>
+                                    <goal>jar</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- END: Plugins for maven central distribution -->
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+
+        <!-- Include SOURCE in output artifact for GWT (GWT libraries must include
+            source) -->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+
+    </build>
+
+</project>
