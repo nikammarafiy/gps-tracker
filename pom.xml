@@ -5,7 +5,7 @@
     <groupId>com.routing4you</groupId>
     <artifactId>base</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>Routing4You project collection</name>
     <description>This is the common project for all Routing4You project collections</description>
     <inceptionYear>2015</inceptionYear>
@@ -30,6 +30,19 @@
         <name>Routing4You</name>
         <url>http://www.routing4you.com</url>
     </organization>
+    <developers>
+        <developer>
+            <id>daniel</id>
+            <name>Daniel</name>
+            <email>support@routing4you.com</email>
+            <organization>Routing4You</organization>
+            <organizationUrl>http://www.routing4you.com</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
     <dependencyManagement>
         <dependencies>
             <!-- START SUBPROJEKTE -->
