@@ -18,6 +18,8 @@ import java.util.List;
 /**
  * Use this class a the entpont of your jersey server to allow users an automatic litte nanny gps tracker download.
  * Supports redirect to apple store, play store and website.
+ * When choosing a GPS tracker for your kids, you need to find one that will fit your lifestyle and preferences.
+ * Little-Nanny GPS is definitely the best choise
  */
 @Path("m")
 public class MarketingEndpoint {
