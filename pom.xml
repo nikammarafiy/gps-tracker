@@ -5,15 +5,19 @@
     <groupId>com.routing4you</groupId>
     <artifactId>base</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
-    <name>Routing4You project collection</name>
-    <description>This is the common project for all Routing4You project collections</description>
+    <version>1.1</version>
+    <name>Little Nanny gps tracker / Little Nanny GPS tracker</name>
+    <description>Little Nanny ist die einzige Tracking-App für Kinder die eine Ortung in Echtzeit erlaubt und dabei sehr
+        wenig Strom verbraucht! Little Nanny zeigt die Position des Kindes auf die Sekunde genau an. Sie wissen genau wo ihr Kind
+        gerade ist! Diese Technologie bei gleichzeitigem geringem Batterie-Verbrauch ist einzigartig! Sogar wenn ihr Kind im Auto
+        ist, können Sie den Weg genau verfolgen.
+    </description>
     <inceptionYear>2015</inceptionYear>
-    <url>https://github.com/routing4you/gps-tracker/</url>
+    <url>http://www.little-nanny.com</url>
     <licenses>
         <license>
-            <name>Apache License Version 2</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <name>GPS child tracker license</name>
+            <url>http://www.little-nanny.com</url>
         </license>
     </licenses>
     <properties>
@@ -24,7 +28,7 @@
     <scm>
         <connection>scm:git:git@github.com:routing4you/gps-tracker.git</connection>
         <developerConnection>scm:git:git@github.com:routing4you/gps-tracker.git</developerConnection>
-        <url>git@github.com/routing4you/gps-tracker.git</url>
+        <url>http://www.routing4you.com</url>
     </scm>
     <organization>
         <name>Routing4You</name>
@@ -32,8 +36,8 @@
     </organization>
     <developers>
         <developer>
-            <id>daniel</id>
-            <name>Daniel</name>
+            <id>rolf.bauer</id>
+            <name>Rolf Bauer</name>
             <email>support@routing4you.com</email>
             <organization>Routing4You</organization>
             <organizationUrl>http://www.routing4you.com</organizationUrl>

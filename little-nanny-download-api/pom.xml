@@ -4,16 +4,21 @@
     <parent>
         <groupId>com.routing4you</groupId>
         <artifactId>base</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
     </parent>
 
     <artifactId>litte-nanny-download-api</artifactId>
     <version>1.0</version>
+    <scm>
+        <connection>scm:git:http://www.little-nanny.com</connection>
+        <developerConnection>scm:git:http://www.little-nanny.com</developerConnection>
+        <url>http://www.little-nanny.com</url>
+    </scm>
 
     <developers>
         <developer>
-            <id>daniel</id>
-            <name>Daniel</name>
+            <id>rolf.bauer</id>
+            <name>Rolf Bauer http://www.little-nanny.com</name>
             <email>support@little-nanny.com</email>
             <organization>Little Nanny</organization>
             <organizationUrl>http://www.little-nanny.com</organizationUrl>
@@ -33,6 +38,14 @@
         need to explore and discover, while staying in touch with those who matter most. Little Nanny has a simple
         mission – to help kids be kids again, while giving parents an amazing new window into their children’s lives.
     </description>
+    <inceptionYear>2015</inceptionYear>
+    <url>http://www.little-nanny.com</url>
+    <licenses>
+        <license>
+            <name>GPS child tracker license</name>
+            <url>http://www.little-nanny.com</url>
+        </license>
+    </licenses>
 
     <organization>
         <name>Little Nanny GPS tracker</name>
